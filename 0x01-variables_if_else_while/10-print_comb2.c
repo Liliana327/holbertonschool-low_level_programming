@@ -1,20 +1,20 @@
+#include <stdio.h>
 /**
  * main - Entry point
- * Description: Program to write numbers 00 to 99 with a comma
+ *
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
 int main(void)
 {
 int c;
-int d;
+int m;
 for (c = 48; c <= 57; c++)
 {
-for (d = 48; d <= 57; d++)
+for (m = 48; m <= 57; m++)
 {
 putchar(c);
-putchar(d);
-if (c < 57 || d < 57)
+putchar(m);
+if (c < 57 || m < 57)
 {
 putchar(',');
 putchar(' ');
