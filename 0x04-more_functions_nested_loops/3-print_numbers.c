@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * print_number - Entry point
- *
- * Return: Always 0 (Success)
+ * print_numbers - print the numbers of the main function
+ * description: print the numbers from 0 to 9 of the main function
+ * null - no return.
  */
 void print_numbers(void)
 {
