@@ -15,10 +15,12 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (a < 0)
 	{
-	a = n;
+	a = 0;
 	if (a == 0)
+	break;
 	i[a] = m[a];
 	a++;
+	n++;
 	}
 	return (dest);
 }
