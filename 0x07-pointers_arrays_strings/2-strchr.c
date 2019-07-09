@@ -3,7 +3,7 @@
  * *_strchr - Write a function that locates a character in a string.
  * @s: pointer to the destination array where the content is to be copied.
  * @c: This is the number of bytes to be copied.
- * Return: (dest)
+ * Return: ('\0')
  */
 char *_strchr(char *s, char c)
 {
@@ -12,7 +12,5 @@ char *_strchr(char *s, char c)
 	if (*s == c)
 	return (s);
 	}
-	if (*s == c)
-	return (s);
 	return ('\0');
 }
