@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stddef.h>
 /**
  * *_strchr - Write a function that locates a character in a string.
  * @s: pointer to the destination array where the content is to be copied.
