@@ -10,10 +10,9 @@
 int main(int argc, char *argv[])
 {
 	int m;
-	int o;
 	int n;
+	int s = 0;
 
-	o = 0;
 	if (argc < 2)
 	{
 	printf("0\n");
@@ -21,19 +20,16 @@ int main(int argc, char *argv[])
 	}
 	for (m = 1; m < argc; m++)
 	{
-	for (n = 0; argv[m][n] != '\0'; n++)
+	for (n = 0; *(*(argv + m) + n) != '\0' ; n++)
 	{
-	if (isdigit(argv[m][n]))
-	continue;
-	else
+	if (*(*(argv + m) + n) < 48 || *(*(argv + m) + n) > 57)
 	{
 	printf("Error\n");
 	return (1);
 	}
 	}
-	o += atoi(argv[m]);
+	s += atoi(*(argv + m));
 	}
-	printf("%d\n", o);
-	return (0);
+	printf("%d\n", s);
+	return (s);
 }
-
