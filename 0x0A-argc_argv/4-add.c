@@ -2,10 +2,10 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
- * main - adds positive numbers.
- * @argc: counts arguments
- * @argv: holds arguments
- * Return: 0 if no number is passed, 1 if no digits passed
+ * main - dumeros posituvos
+ * @argc: numero de argumentos
+ * @argv: strinp
+ * Return: (0)
  */
 int main(int argc, char *argv[])
 {
