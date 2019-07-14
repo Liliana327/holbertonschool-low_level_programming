@@ -2,7 +2,7 @@
 #include "holberton.h"
 /**
  * main - imprime el nombre
- * @argc: numero de argumentos 
+ * @argc: numero de argumentos
  * @argv: strings.
  * Return: (0)
  */
