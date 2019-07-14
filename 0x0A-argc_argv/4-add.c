@@ -13,11 +13,6 @@ int main(int argc, char *argv[])
 	int n;
 	int s = 0;
 
-	if (argc < 2)
-	{
-	printf("0\n");
-	return (0);
-	}
 	for (m = 1; m < argc; m++)
 	{
 	for (n = 0; *(*(argv + m) + n) != '\0' ; n++)
