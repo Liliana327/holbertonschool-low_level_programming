@@ -25,6 +25,7 @@ char *str_concat(char *s1, char *s2)
 
 	b = 0;
 	m = longitud(s1) + longitud(s2) + 1;
+	array = malloc(sizeof(char) * m);
 	if (array == NULL)
 	{
 		return (NULL);
