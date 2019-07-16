@@ -1,8 +1,8 @@
 #include <stdlib.h>
 /**
  * longitud - length of a string
- * @str: string to be calculated
- * Return: the length of the string
+ * @str: string t
+ * Return: 0;
  */
 int longitud(char *str)
 {
@@ -17,7 +17,11 @@ int longitud(char *str)
 }
 
 /**
-*/
+ * str_concat - function that concatenates two strings
+ * @s1: 1 string
+ * @s2: 2 string
+ * Return: 0;
+ */
 char *str_concat(char *s1, char *s2)
 {
 	char *array;
