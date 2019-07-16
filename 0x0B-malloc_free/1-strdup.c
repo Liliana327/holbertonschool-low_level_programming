@@ -1,7 +1,7 @@
 #include <stdlib.h>
 /**
- * _strdup - function that returns a pointer to a newly allocated space in memory,
- * @str: string 
+ * _strdup - function that returns a pointer allocated space in memory,
+ * @str: string
  * Return: NULL
  */
 char *_strdup(char *str)
@@ -26,5 +26,5 @@ char *_strdup(char *str)
 		array[i] = str[i];
 	}
 		array[i] = '\0';
-return (str);
+return (array);
 }
