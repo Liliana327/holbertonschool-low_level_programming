@@ -5,7 +5,7 @@ void freeing(int **array, int height);
  * alloc_grid - function that returns a pointer
  * @width: width
  * @height: height
- * Return: pointer 
+ * Return: pointer
  */
 int **alloc_grid(int width, int height)
 {
