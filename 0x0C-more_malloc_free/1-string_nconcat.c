@@ -19,10 +19,10 @@ int longitud(char *str)
 }
 
 /**
- * str_concat - function that concatenates two strings
+ * *string_nconcat - function that concatenates two strings
  * @s1: 1 string
  * @s2: 2 string
- * n: variable
+ * @n: variable
  * Return: 0;
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -46,6 +46,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		array[b] = s2[a];
 		b++;
 	}
-	array[b] = '\0'; 
+	array[b] = '\0';
 return (array);
 }
