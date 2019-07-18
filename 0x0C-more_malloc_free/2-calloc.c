@@ -1,8 +1,10 @@
+#include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
- * *_calloc - function that allocates memory for an array
- * @size: size the array
- * @nmenb: char the array
+ * _calloc - function that allocates memory for an array
+ * @size: tama√o.
+ * @nmemb: arreglo
  * Return: (*array)
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
