@@ -4,7 +4,7 @@
 #include "3-calc.h"
 /**
  * get_op_func - funció para realizar la operació
- * @s: operator 
+ * @s: operator
  * Return: (NULL);
  */
 int (*get_op_func(char *s))(int, int)
