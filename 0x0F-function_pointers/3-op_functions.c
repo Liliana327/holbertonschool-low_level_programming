@@ -41,6 +41,12 @@ int op_div(int a, int b)
 {
 	return (a / b);
 }
+/**
+*op_mod - modulo de dos numeros
+*@a: numero1
+*@b: numero2
+*Return: resultado
+*/
 int op_mod(int a, int b)
 {
 	return (a % b);
