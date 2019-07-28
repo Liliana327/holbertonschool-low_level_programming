@@ -13,9 +13,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list arguments;
 	char *a;
 
+        va_start(arguments, n);
+
 	if (n == 0)
 	return;
-	va_start(arguments, n);
 	for (m = 0; m < n; m++)
 	{
 	a = va_arg(arguments, char *);
