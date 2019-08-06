@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * pop_listint - deletes the node 
+ * pop_listint - deletes the node
  * @head: double pointer of list
  * Return: data
  */
