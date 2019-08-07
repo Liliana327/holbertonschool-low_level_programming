@@ -2,7 +2,7 @@
 /**
  * delete_nodeint_at_index - function that deletes the node at index
  * @head: double pointer
- * @index: index at which node 
+ * @index: index at which node
  * Return: (1);
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
