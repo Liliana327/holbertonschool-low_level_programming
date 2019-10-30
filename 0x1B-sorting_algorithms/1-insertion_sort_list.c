@@ -1,7 +1,7 @@
 #include "sort.h"
 /**
 * insertion_sort_list - Sort a doubly linked list.
-* @**list: ready to order
+* @list: ready to order
 */
 void insertion_sort_list(listint_t **list)
 {
@@ -24,7 +24,7 @@ void insertion_sort_list(listint_t **list)
 /**
 * sorted_insert - function to insert a new node in sorted way in
 * a sorted doubly linked list
-* @**list: ready to order
+* @list: ready to order
 * @node:  the node to be compared
 */
 void sorted_insert(listint_t **list, listint_t *node)
