@@ -1,5 +1,5 @@
 #include "sort.h"
-/*
+/**
 * bubble_sort - is responsible for arranging the arrangement
 * @array: is a pointer pointing to the list
 * @size: is the size of the list
