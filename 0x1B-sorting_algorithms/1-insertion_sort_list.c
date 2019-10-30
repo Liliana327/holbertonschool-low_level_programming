@@ -9,8 +9,8 @@ void insertion_sort_list(listint_t **list)
 
 		if (list  == NULL)
 		if (*list == NULL)
-		if((*list)->next == NULL)
-        	return;
+		if ((*list)->next == NULL)
+		return;
 
 	temp = *list;
 		while (temp->next)
@@ -22,8 +22,8 @@ void insertion_sort_list(listint_t **list)
 }
 
 /**
-* sorted_insert - function to insert a new node in sorted way in 
-* a sorted doubly linked list 
+* sorted_insert - function to insert a new node in sorted way in
+* a sorted doubly linked list
 * @**list: ready to order
 * @node:  the node to be compared
 */
@@ -42,7 +42,7 @@ void sorted_insert(listint_t **list, listint_t *node)
 			node->next = previous;
 			previous->prev = node;
 				if (!double_prev)
-				{	
+				{
 				*list = node;
 				(*list)->prev = NULL;
 				}
@@ -50,7 +50,7 @@ void sorted_insert(listint_t **list, listint_t *node)
 				{
 				node->prev = double_prev;
 				double_prev->next = node;
-				}			
+				}
 				if (double_next)
 				{
 				previous->next = double_next;
@@ -59,7 +59,7 @@ void sorted_insert(listint_t **list, listint_t *node)
 				else
 				previous->next = NULL;
 				print_list((const listint_t *)*list);
-        		}
+	}
 			else
 			return;
 			previous = node->prev;
