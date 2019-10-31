@@ -8,18 +8,31 @@
 void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j;
-	int temp;
+	unsigned int temp;
 
-	for (i = 1; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
-		for (j = 0; j < size - 1; j++)
-
-			if (array[j] > array[j + 1])
-			{
-			temp = array[j];
-			array[j] = array[j + 1];
-			array[j + 1] = temp;
+		temp = i;
+		for (j = i + 1; j < size; j++)
+		{
+			if (array[temp] > array[j])
+			temp = j;
+		}
+		if (i != temp)
+		{
+			Pointer(&array[i], &array[temp]);
 			print_array(array, size);
-			}
+		}
 	}
+}
+/**
+* Pointer - position
+* @a: pointer
+* @b: pointer
+*/
+void Pointer(int *a, int *b)
+{
+	int tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
