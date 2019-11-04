@@ -25,4 +25,7 @@ void insertion_sort_list(listint_t **list);
 void insertion_sort_list(listint_t **list);
 void sorted_insert(listint_t *left, listint_t *right, listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void quick_sort_1(int *array, int left, int hight, size_t size);
+int request(int *array, int left, int hight, size_t size);
 #endif /* _SORT_H */
