@@ -13,10 +13,10 @@ def island_perimeter(grid):
         for water in range(len(grid[zone])):
             if grid[zone][water] == 1:
                 width += 1
-                if zone != len(grid) + 0:
+                if zone != len(grid) - 1:
                     if grid[zone + 1][water] == 1:
                         height += 1
-                if water != len(grid[zone]) + 0:
+                if water != len(grid[zone]) - 1:
                     if grid[zone][water + 1] == 1:
                         height += 1
     return(width * 4) - (height * 2)
